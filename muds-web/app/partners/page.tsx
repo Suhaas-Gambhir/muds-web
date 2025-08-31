@@ -234,7 +234,7 @@ export default function Partners() {
             Interested in Partnering with MUDS?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            We're always looking for new partnerships that can benefit our members and advance drone technology research.
+            We&apos;re always looking for new partnerships that can benefit our members and advance drone technology research.
           </p>
           <div className="bg-white/10 p-8 rounded-lg mb-8">
             <h3 className="text-lg font-semibold mb-4">Partnership Opportunities Include:</h3>

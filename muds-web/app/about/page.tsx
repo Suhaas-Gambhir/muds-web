@@ -8,7 +8,7 @@ export default function About() {
             About MUDS
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the story behind Macquarie University's premier drone society and our mission to advance UAV technology through education, innovation, and community.
+            Discover the story behind Macquarie University&apos;s premier drone society and our mission to advance UAV technology through education, innovation, and community.
           </p>
         </div>
       </section>
@@ -27,7 +27,7 @@ export default function About() {
               <div>
                 <h2 className="text-2xl font-bold text-black mb-4">Our Vision</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  To be Australia's leading university drone society, recognized for our contributions to UAV research, education, and industry collaboration. We envision a future where our members become the next generation of drone technology leaders.
+                  To be Australia&apos;s leading university drone society, recognized for our contributions to UAV research, education, and industry collaboration. We envision a future where our members become the next generation of drone technology leaders.
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function About() {
                 <div className="border-l-4 border-black pl-6">
                   <h3 className="text-xl font-semibold text-black mb-2">Educational Workshops</h3>
                   <p className="text-gray-700">
-                    We run regular workshops covering drone assembly, flight training, programming, and maintenance. From beginner-friendly sessions to advanced technical deep-dives, there's something for everyone.
+                    We run regular workshops covering drone assembly, flight training, programming, and maintenance. From beginner-friendly sessions to advanced technical deep-dives, there&apos;s something for everyone.
                   </p>
                 </div>
                 
@@ -106,7 +106,7 @@ export default function About() {
                     <span className="text-2xl text-gray-600">👨‍💼</span>
                   </div>
                   <h3 className="text-lg font-semibold text-black">President</h3>
-                  <p className="text-gray-600">Leading the society's vision and strategic direction</p>
+                  <p className="text-gray-600">Leading the society&apos;s vision and strategic direction</p>
                 </div>
                 
                 <div className="text-center">

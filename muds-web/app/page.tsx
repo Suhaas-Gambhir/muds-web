@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from "next/image";
 import Link from 'next/link';
 import LoadingScreen from '../components/LoadingScreen';
 
@@ -32,7 +31,7 @@ export default function Home() {
                 Macquarie University Drone Society
               </h2>
               <p className="text-lg md:text-xl text-gray-700 mb-12 max-w-3xl mx-auto leading-relaxed">
-                Join Australia's premier university drone society. Explore cutting-edge UAV technology, 
+                Join Australia&apos;s premier university drone society. Explore cutting-edge UAV technology, 
                 participate in innovative projects, and connect with passionate aerial enthusiasts.
               </p>
 
@@ -153,7 +152,7 @@ export default function Home() {
               Ready to Take Flight?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Join MUDS today and become part of Macquarie University's most innovative student society.
+              Join MUDS today and become part of Macquarie University&apos;s most innovative student society.
             </p>
             <Link
               href="/join"
@@ -164,35 +163,6 @@ export default function Home() {
           </div>
         </section>
       </div>
-
-      <style jsx>{`
-        .drone-hero {
-          animation: heroFloat 4s ease-in-out infinite;
-        }
-
-        .propeller-spin {
-          animation: spin 0.1s linear infinite;
-          transform-origin: center;
-        }
-
-        @keyframes heroFloat {
-          0%, 100% {
-            transform: translateY(0px);
-          }
-          50% {
-            transform: translateY(-15px);
-          }
-        }
-
-        @keyframes spin {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
-          }
-        }
-      `}</style>
     </>
   );
 }

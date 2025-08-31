@@ -62,7 +62,7 @@ export default function Join() {
             Join MUDS
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to take your passion for drones to the next level? Join Macquarie University's premier drone society and become part of an innovative community pushing the boundaries of UAV technology.
+            Ready to take your passion for drones to the next level? Join Macquarie University&apos;s premier drone society and become part of an innovative community pushing the boundaries of UAV technology.
           </p>
         </div>
       </section>
@@ -381,7 +381,7 @@ export default function Join() {
                 Submit Application
               </button>
               <p className="text-sm text-gray-600 mt-4">
-                We'll review your application and get back to you within 3-5 business days.
+                We&apos;ll review your application and get back to you within 3-5 business days.
               </p>
             </div>
           </form>
@@ -412,13 +412,13 @@ export default function Join() {
                 Is there a membership fee?
               </h3>
               <p className="text-gray-700">
-                Yes, there's an annual membership fee of $25 which helps cover equipment maintenance, event costs, and society operations. This is a small investment for the value and opportunities you'll receive.
+                Yes, there&apos;s an annual membership fee of $25 which helps cover equipment maintenance, event costs, and society operations. This is a small investment for the value and opportunities you&apos;ll receive.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-black mb-2">
-                Can I join if I'm not an engineering student?
+                Can I join if I&apos;m not an engineering student?
               </h3>
               <p className="text-gray-700">
                 Absolutely! While many of our members are from engineering backgrounds, we welcome students from all disciplines. Drone technology intersects with many fields including computer science, environmental science, business, and more.

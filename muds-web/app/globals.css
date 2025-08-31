@@ -35,6 +35,15 @@ body {
   }
 }
 
+@keyframes heroFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -48,8 +57,41 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
+.drone-hero {
+  animation: heroFloat 4s ease-in-out infinite;
+}
+
+.drone-container {
+  animation: float 3s ease-in-out infinite;
+}
+
 .propeller-spin {
   animation: spin 0.1s linear infinite;
+  transform-origin: center;
+}
+
+.propeller {
+  animation: spin 0.1s linear infinite;
+}
+
+.propeller-1 {
+  animation-delay: 0s;
+}
+
+.propeller-2 {
+  animation-delay: 0.025s;
+}
+
+.propeller-3 {
+  animation-delay: 0.05s;
+}
+
+.propeller-4 {
+  animation-delay: 0.075s;
+}
+
+.loading-dot {
+  animation: bounce 1s infinite;
 }
 
 /* Smooth scrolling */

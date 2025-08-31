@@ -64,55 +64,6 @@ const LoadingScreen = () => {
           <div className="loading-dot w-2 h-2 bg-black rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
         </div>
       </div>
-
-      <style jsx>{`
-        .drone-container {
-          animation: float 3s ease-in-out infinite;
-        }
-
-        .propeller {
-          animation: spin 0.1s linear infinite;
-        }
-
-        .propeller-1 {
-          animation-delay: 0s;
-        }
-
-        .propeller-2 {
-          animation-delay: 0.025s;
-        }
-
-        .propeller-3 {
-          animation-delay: 0.05s;
-        }
-
-        .propeller-4 {
-          animation-delay: 0.075s;
-        }
-
-        @keyframes float {
-          0%, 100% {
-            transform: translateY(0px);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-        }
-
-        @keyframes spin {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
-          }
-        }
-
-        .loading-dot {
-          animation-duration: 1s;
-          animation-iteration-count: infinite;
-        }
-      `}</style>
     </div>
   );
 };

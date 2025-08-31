@@ -298,7 +298,7 @@ export default function Events() {
       <section className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-4">
-            Don't Miss Out!
+            Don&apos;t Miss Out!
           </h2>
           <p className="text-xl text-gray-300 mb-8">
             Join MUDS today to get access to all our exclusive events and workshops.

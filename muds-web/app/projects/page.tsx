@@ -185,7 +185,7 @@ export default function Projects() {
             Want to Work on These Projects?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Join MUDS and contribute to exciting projects that push the boundaries of drone technology. Whether you're a beginner or an expert, there's a place for you in our project teams.
+            Join MUDS and contribute to exciting projects that push the boundaries of drone technology. Whether you&apos;re a beginner or an expert, there&apos;s a place for you in our project teams.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
